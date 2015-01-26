@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -38,6 +39,10 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'apps.administrator',
+    'apps.apartments',
+    'apps.board',
+    'apps.buildings',
+    'apps.payments',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -87,4 +92,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/s/'
+STATIC_ROOT = 'assets'
+
+TEMPLATE_DIRS = ['templates']
