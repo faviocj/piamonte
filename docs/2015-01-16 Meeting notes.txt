@@ -1,0 +1,46 @@
+##feasibility elicitation
+
+
+60min	data flow of processes	nita, Favio Condori [Administrator]	
+
+
+Agreements
+
+    there are four ways to assign a payment for each owner:
+        sum all expenses for month of the building  which consist: water receipt + public cleaning receipt and other still not identified (depend of each building), all divided for the number of apartments.
+        get the quota to be paid for each apartment according to the area.
+        get the quota to be paid for the number of persons living in an apartment
+        get the quota according the declaration of each apartment: when traveling for instance.
+
+    payments:
+        some time, the collection of payments was outsourced, but there wasn't the control to keep in order the accounts.
+        after that, the payments were in cash to the guardianship of the building and he gave a receipt for records.
+        currently, the payments are entrusted to the bank, where every month the building board in charge provides an excel with the amounts to be charged. therefore each owner paid what is debt.
+
+    penalties
+        the actual penaltie for day is 0.50 cents of soles
+        there are penalties other than money. The law does not permit to take the property or to remove a service to the owner.
+
+    reports used by the admin
+        report of the owners in debt, the owners who paid.
+        report from the bank, how much is collected each month
+        keep the record of the services receipts
+    notifications:
+        each month beginning the owners are notified with the code and amount to be paid.
+        each end of the month the owners are notified with the status of payments of all the building.
+
+ 
+System expectations
+
+    app movil for the user: owner of apartment
+    email notifications for the owners which could not have  an smartphone
+    web admin for the building board in charge.
+    automatize the given and import of payments to the bank
+    to create dashboards reports. (not identified)
+
+ 
+Action items
+
+    to adquire confluence Favio Condori [Administrator]
+    to manage confluence nita
+
